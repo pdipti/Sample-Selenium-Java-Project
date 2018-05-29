@@ -1,0 +1,8 @@
+INFO 2018-05-28 10:19:27,759 0 com.fox.page.SeleniumDriverManager [Test worker] Starting new browser session
+INFO 2018-05-28 10:19:27,761 2 com.fox.page.SeleniumDriverManager [Test worker] Creating chrome driver
+INFO 2018-05-28 10:19:28,696 937 com.fox.page.SeleniumDriverManager [Test worker] Local webdriver created.
+INFO 2018-05-28 10:19:28,709 950 com.fox.page.SeleniumDriverManager [Test worker] <<<<Initialization of web page.>>>>>
+INFO 2018-05-28 10:19:28,709 950 com.fox.page.SeleniumDriverManager [Test worker] Opening page: https://www.fox.com/
+INFO 2018-05-28 10:19:33,574 5815 com.fox.page.SeleniumDriverManager [Test worker] <<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>
+INFO 2018-05-28 10:19:56,380 28621 com.fox.page.SeleniumDriverManager [Test worker] Killing selenium driver session
+ERROR 2018-05-28 10:19:59,470 31711 com.fox.page.SeleniumDriverManager [Test worker] Failed to close previous driver session. Force kill by user is recommended.

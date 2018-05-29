@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TopprAutomation" verbose="1">
+
+	<parameter name="baseUrl" value="https://www.fox.com/" />
+	<parameter name="emailId" value="diptild1992@gmail.com" />
+	<parameter name="browser" value="chrome" />
+
+	<test name="Basic Smoke Tests" preserve-order="true">
+
+		<packages>
+			<package name="com.fox.test" />
+		</packages>
+	</test>
+
+</suite>

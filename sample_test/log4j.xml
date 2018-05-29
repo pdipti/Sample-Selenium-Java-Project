@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration
+	xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<appender name="fout" class="org.apache.log4j.FileAppender">
+		<param name="File" value="logs/${logfilename}" />
+		<param name="Append" value="false" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%p	%d{ISO8601}	%r	%c	[%t]	%m%n" />
+		</layout>
+	</appender>
+	<appender name="stdout"
+		class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{MM-dd-yyyy HH:mm:ss} - [%C / %M][%-5p] - %m%n" />
+		</layout>
+	</appender>
+	<root>
+		<level value="INFO" />
+		<appender-ref ref="stdout" />
+		<appender-ref ref="fout" />
+	</root>
+</log4j:configuration>
